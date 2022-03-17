@@ -1,0 +1,12 @@
+button {
+  padding: 14px 75px;
+  background-color: blue;
+}
+
+.row {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
