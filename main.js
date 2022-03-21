@@ -7,9 +7,9 @@ let Name = prompt("Enter your name: ");
 // document.getElementById("address").innerHTML = address;
 // document.getElementById("phone").innerHTML = phone;
 
-document.getElementById("name").innerHTML = Name;
+// document.getElementById("name").innerHTML = Name;
 
-alert("Welcome to ATC" + " " + Name)
+// alert("Welcome to ATC" + " " + Name)
 
 
 
@@ -145,15 +145,6 @@ alert("It's time for dicount")
 
 
 
-
-
-
-
-
-
-
-
-
 let purchase = prompt("Enter the amount of your purchase")
 
 let amount = purchase 
@@ -185,6 +176,22 @@ else if ((parseInt(purchase) > 5000) ){
   payment.innerHTML = purchase - (30/100 * purchase)
 
 }
+
+// A program that determines if a number is odd or even
+let x = prompt("Enter a number")
+ document.getElementById("test").innerHTML = x;
+ if (parseInt(x) % 2 == 0 ) {
+    document.getElementById("result").innerHTML = "It is an even number";
+ }
+ else if (parseInt(x) % 2 == 1 )    { 
+    document.getElementById("result").innerHTML = "It is an odd number";
+ }
+ else  { 
+    document.getElementById("result").innerHTML = "Invalid input";
+ }
+ 
+
+
 
 
 
