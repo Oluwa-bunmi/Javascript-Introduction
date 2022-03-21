@@ -10,17 +10,22 @@
     <link rel="stylesheet" href="Sass/style.css">
 </head>
 <body>
-   <!-- <h3>My name is <span id="name"></span></h3>
-   <h3>I am <span id="age"></span></h3>
+    <h3>My name is <span id="name"></span></h3>
+   <!-- <h3>I am <span id="age"></span></h3>
    <h3>I live at <span id="address"></span></h3>
-   <h3>Here's my number <span id="phone"></span></h3>
+   <h3>Here's my number <span id="phone"></span></h3> -->
+  <br>
   
-  <h1>Calculator</h1>
-  <h3>60seconds = 1min</h3>
-  <h3>60mins = 1hr</h3>
-  <h3>1hr = <span id="first"></span> <span>seconds</span></h3>
-  <h3>24hrs = <span id="second"></span> <span>seconds</span></h3>
-  <h3>7days = <span id="third"></span> <span>seconds</span></h3> -->
+  <p> <ins> Calculator</ins></p>
+  <p>60seconds = 1min</p>
+  <p>60mins = 1hr</p>
+  <p>1hr = <span id="first"></span> <span>seconds</span></p>
+  <p>24hrs = <span id="second"></span> <span>seconds</span></p>
+  <p>7days = <span id="third"></span> <span>seconds</span></p> 
+  <section class="firstSection">
+
+    <!-- Table Assignment -->
+  <h1> <ins> Assignment 1</ins></h1>
 <table class="table">
   <thead>
     <tr>
@@ -33,57 +38,131 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td id="title1">Pot of life</td>
-      <td id="name1">Otto</td>
-      <td id="year1">2004</td>
+      <td >Pot of life</td>
+      <td >Otto</td>
+      <td >2004</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td id="title2">Joys of Motherhood</td>
-      <td id="name2">Mercy </td>
-      <td id="year2">2012</td>
+      <td >Joys of Motherhood</td>
+      <td >Mercy </td>
+      <td >2012</td>
     </tr>
   <tr>
     <th scope="row">3</th>
-    <td id="title3">The lost  Child</td>
-    <td id="name3">Favour Eke </td>
-    <td id="year3">2003</td>
+    <td >The lost  Child</td>
+    <td >Favour Eke </td>
+    <td >2003</td>
   </tr>
   </tbody>
 </table>
+<br>
+<br>
 
-<div class="container">
-  <div class="row ">
-    <div class="col-md-6">
-<h3>Using the sort method</h3>
-<!-- <p>Bunmi, Simeon, Efe, Tolu, Babatunde, Wale, Eminem</p> -->
+
+<h3> <ins> Array</ins></h3>
+ 
+  <!-- <div class="row  container"> -->
+
+    <div class="col-md-12"> 
+<h4>Using the sort method</h4>
 <p id="sorting"></p>
 <button onclick="myFunction()">Sort</button>
 </div>
+
+
+<div class="col-md-12">
+<h4>Using the pop method</h4>
+<p id="popping"></p>
+<button onclick="popFunction()">Pop</button>
 </div>
 
 
-<h3>Using the pop method</h3>
-<!-- <p>Bunmi, Simeon, Efe, Tolu, Babatunde, Wale, Eminem</p> -->
-<p id="popping"></p>
-<button onclick="popFunction()">Pop</button>
-
-
-<h3>Using the push method</h3>
-
+<div class="col-md-12">
+<h4>Using the push method</h4>
 <p id="pushing"></p>
 <button onclick="pushFunction()">Push</button>
+</div>
+<!-- </div> -->
+<br>
+<br>
 
-
-
-<h3>Using the shift method</h3>
+<!-- <div class="row container"> -->
+  <div class="col-md-12">
+<h4>Using the shift method</h4>
 
 <p id="shifting"></p>
 <button onclick="shiftFunction()">Shift</button>
-
-<h3>Concat</h3>
+</div>
+<div class="col-md-12">
+<h4>Concat</h4>
 <p id="merge"></p>
 </div>
+</div>
+
+<br>
+
+</section>
+
+
+
+
+
+
+<section class="secondSection">
+ <h1> <ins>Assignment 2</ins></h1>
+ <div class="row container">
+ <div class="col-md-12">
+<p>1) Three friends went to eat in a resturant and their total bill was
+10k.Write a program to calculate how much each of them would pay if they are to leave 30%
+to their total bill</p>
+</div>
+</div>
+
+
+<div class="row container">
+  <div class="col-md-12">
+<div class="solution">
+<p><ins>  Solution</ins></p>
+<p>Eminem's bill : <span id="eminem"></span></p>
+<p>Simeon's bill : <span id="simeon"></span></p>
+<p>Tolu's bill : <span id="tolu"></span> </p>
+</div>
+</div>
+</div>
+<br>
+
+
+<div class="row container">
+  <div class="col-md-12">
+<p>2)A store is making discount on sales, write a program to ask a user how much
+his or her purchase is. If the user purchase price is less than N2000 then
+the user should have 10% discount on his / her purchase, if the user purchase
+price is between N2000 and N5000 then the user should have 20% discount and if
+the purchase if above N5000 then the user should have 30% discount.
+
+Then your program should display the initial price, discount price and new
+purchase price after removing the discount price from it.
+
+NOTE: Ensure your display your output on the console and also the webpage.</p>
+</div>
+</div>
+
+<div class="row container">
+  <div class="col-md-12">
+<div class="solution">
+<p><ins>Solution </ins> </p>
+ <p> Total Amount of goods bought: <span id="goods"></span> </p>
+ <p>Discount: <span id="discount"></span> </p>
+ <p>Amount to  be paid: <span id="payment"></span> </p>
+</div>
+</div>
+</div>
+<br>
+</section>
+
+
+
 
 <script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -1,12 +1,48 @@
-button {
-  padding: 14px 75px;
-  background-color: blue;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.row {
-  display: block;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+body h1 {
+  text-align: center;
+}
+
+body button {
+  padding: 10px 40px;
+  background-color: grey;
+  border: 1px solid grey;
+}
+
+body button:hover {
+  background-color: #1b1818;
+  color: white;
+}
+
+body .firstSection h3 {
+  text-align: center;
+}
+
+body table {
+  background-color: grey;
+}
+
+body table thead {
+  color: white;
+}
+
+body table tbody {
+  color: white;
+}
+
+body .secondSection {
+  padding-top: 100px;
+  background-color: grey;
+}
+
+body h1 {
+  padding-bottom: 50px;
+}
+
+body p {
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
